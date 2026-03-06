@@ -1,4 +1,4 @@
-package at.xoola.datapackloader.dp;
+package at.jacob0225.datapackloaderplugin.dp;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.io.FileUtils;

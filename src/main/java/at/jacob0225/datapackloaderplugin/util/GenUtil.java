@@ -1,4 +1,4 @@
-package at.xoola.datapackloader.util;
+package at.jacob0225.datapackloaderplugin.util;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;

@@ -1,4 +1,4 @@
-package at.xoola.datapackloader.util;
+package at.jacob0225.datapackloaderplugin.util;
 
 import java.io.IOException;
 import java.io.InputStream;

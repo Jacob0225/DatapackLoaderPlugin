@@ -1,6 +1,6 @@
-name: DatapackLoader
+name: DatapackLoaderPlugin
 version: "${project.version}"
-main: at.xoola.datapackloader.Main
+main: at.jacob0225.datapackloaderplugin.Main
 api-version: "1.21"
 author: lichenaut --> updated by xoola --> Converted for datapack plugin support on modrinth by Jacob0225
 description: Automatically add datapacks to your Minecraft server.

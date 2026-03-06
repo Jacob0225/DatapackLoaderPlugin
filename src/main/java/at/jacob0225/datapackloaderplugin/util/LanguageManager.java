@@ -1,4 +1,4 @@
-package at.xoola.datapackloader.util;
+package at.jacob0225.datapackloaderplugin.util;
 
 import java.io.File;
 import java.io.InputStream;
@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import at.xoola.datapackloader.Main;
+import at.jacob0225.datapackloaderplugin.Main;
 
 public class LanguageManager {
 

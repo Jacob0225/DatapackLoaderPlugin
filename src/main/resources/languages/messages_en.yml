@@ -3,7 +3,7 @@
 command:
   help:
     documentation: "DatapackLoader documentation: "
-    url: "https://github.com/X00LA/DatapackLoader/blob/master/README.md"
+    url: "https://github.com/Jacob0225/DatapackLoaderPlugin/blob/master/README.md"
   invalid:
     usage: "Use '/{command} help', '/{command} import <url>' or '/{command} reload'."
   only-console: "Command can only be used by console!"

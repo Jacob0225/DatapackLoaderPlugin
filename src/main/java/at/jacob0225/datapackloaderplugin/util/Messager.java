@@ -1,11 +1,11 @@
-package at.xoola.datapackloader.util;
+package at.jacob0225.datapackloaderplugin.util;
 
 import java.util.logging.Logger;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import at.xoola.datapackloader.Main;
+import at.jacob0225.datapackloaderplugin.Main;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.chat.TextComponent;

@@ -1,4 +1,4 @@
-package at.xoola.datapackloader.util;
+package at.jacob0225.datapackloaderplugin.util;
 
 import java.io.*;
 import java.nio.channels.Channels;

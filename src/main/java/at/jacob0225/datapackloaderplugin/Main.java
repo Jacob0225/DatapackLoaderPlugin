@@ -1,4 +1,4 @@
-package at.xoola.datapackloader;
+package at.jacob0225.datapackloaderplugin;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,11 +11,11 @@ import java.util.Properties;
 import org.bukkit.configuration.Configuration;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import at.xoola.datapackloader.dp.Applier;
-import at.xoola.datapackloader.util.LanguageManager;
-import at.xoola.datapackloader.util.LevelChanger;
-import at.xoola.datapackloader.util.Messager;
-import at.xoola.datapackloader.util.WorldsDeleter;
+import at.jacob0225.datapackloaderplugin.dp.Applier;
+import at.jacob0225.datapackloaderplugin.util.LanguageManager;
+import at.jacob0225.datapackloaderplugin.util.LevelChanger;
+import at.jacob0225.datapackloaderplugin.util.Messager;
+import at.jacob0225.datapackloaderplugin.util.WorldsDeleter;
 import lombok.Getter;
 import lombok.Setter;
 

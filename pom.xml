@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>at.xoola</groupId>
-    <artifactId>DatapackLoader</artifactId>
-    <version>1.5.2</version>
+    <groupId>at.jacob0225</groupId>
+    <artifactId>DatapackLoaderPlugin</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>DatapackLoader</name>
+    <name>DatapackLoaderPlugin</name>
 
     <description>Automatically add datapacks to your server.</description>
     <properties>
@@ -42,7 +42,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>org.apache.commons.io</pattern>
-                                    <shadedPattern>at.xoola.datapackloader.libs.commons.io</shadedPattern>
+                                    <shadedPattern>at.jacob0225.datapackloaderplugin.libs.commons.io</shadedPattern>
                                 </relocation>
                             </relocations>
                             <filters>
