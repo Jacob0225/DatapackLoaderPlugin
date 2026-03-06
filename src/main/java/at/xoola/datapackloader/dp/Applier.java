@@ -24,7 +24,7 @@ public class Applier {
 
         boolean importEvent = false;
         for (File datapack : datapacksFolderList) {
-            if (!datapack.isDirectory()) {
+            if (datapack.isDirectory() || !datapack.getName().endsWith(".zip")) {
                 continue;
             }
 
@@ -34,11 +34,11 @@ public class Applier {
             }
 
             try {
-                FileUtils.copyDirectory(datapack, datapackTarget);
+                FileUtils.copyFile(datapack, datapackTarget);
                 importEvent = true;
             } catch (IOException e) {
                 throw new IOException(
-                        "IOException: Could not copy directory '" + datapack + "' to '" + datapackTarget + "'!\n", e);
+                        "IOException: Could not copy file '" + datapack + "' to '" + datapackTarget + "'!\n", e);
             }
         }
 

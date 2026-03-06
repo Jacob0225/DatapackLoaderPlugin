@@ -10,5 +10,5 @@ modrinth-project-id: ""
 # Plugin metadata
 plugin:
   name: "DatapackLoader"
-  author: "lichenaut --> updated by xoola"
-  repository: "https://github.com/X00LA/DatapackLoader"
+  author: "lichenaut --> updated by xoola --> Converted for datapack plugin support on modrinth by Jacob0225"
+  repository: "https://github.com/Jacob0225/DatapackLoaderPlugin"

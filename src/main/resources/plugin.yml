@@ -2,34 +2,7 @@ name: DatapackLoader
 version: "${project.version}"
 main: at.xoola.datapackloader.Main
 api-version: "1.21"
-author: lichenaut --> updated by xoola
+author: lichenaut --> updated by xoola --> Converted for datapack plugin support on modrinth by Jacob0225
 description: Automatically add datapacks to your Minecraft server.
 load: STARTUP
-commands:
-  datapackloader:
-    description: "Base command for 'help' and 'import' commands."
-    aliases: [dpl]
-    permission: datapackloader.command
-    permission-message: "You do not have permission to use this command."
 folia-supported: true
-permissions:
-  datapackloader.*:
-    description: "Grants access to all DatapackLoader commands"
-    default: op
-    children:
-      datapackloader.command: true
-      datapackloader.command.help: true
-      datapackloader.command.import: true
-      datapackloader.command.reload: true
-  datapackloader.command:
-    description: "Allows using the base /datapackloader command"
-    default: op
-  datapackloader.command.help:
-    description: "Allows using /datapackloader help"
-    default: true
-  datapackloader.command.import:
-    description: "Allows using /datapackloader import to add datapacks"
-    default: op
-  datapackloader.command.reload:
-    description: "Allows using /datapackloader reload to reload config and languages"
-    default: op
